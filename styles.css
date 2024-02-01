@@ -1,0 +1,203 @@
+html { 
+    font-family: 'Noto Sans', sans-serif;
+    background-color: darkgrey;
+}
+
+#Colors { 
+   margin: auto;
+   margin-bottom: 50px;
+   border: 2px solid;
+    height: 400px;
+    width: 1200px;
+    background-color: rgb(32, 130, 130);
+}
+
+#Fonts { 
+    margin: auto;
+    border: 2px solid;
+    height: 600px;
+    width: 1200px;  
+    background-color: rgb(110, 214, 214);
+    margin-bottom: 50px;
+    
+}
+
+.TextStyles {
+    margin: auto;
+    border: 2px solid;
+    height: 550px;
+    width: 1200px;  
+    background-color: darkcyan;
+    margin-bottom: 50px;
+
+}
+
+.titles {
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+}
+
+.flexbox-center {
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.colorbox {
+    margin: 20px;
+    margin-bottom: 50px;
+    min-height: 100px;
+    width: 300px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#blue { 
+    background-color: blue;
+
+}
+#red {
+    background-color: red;
+}
+#green {
+    background-color: green;
+}
+#yellow {
+    background-color: yellow;
+}
+#gray {
+    background-color: gray;
+}
+#brown {
+    background-color: brown;
+}
+
+header li { 
+    margin: auto;
+    display: inline-block;
+    padding: 20px 25px;
+    font-weight: bold;
+    font-size: medium;
+   
+}
+
+header ul { 
+    margin-top: 10px;
+    margin-left: 58%;
+}
+
+header h1 { 
+    margin-left: 18.50%;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+.flexbox-fonts {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fontname {
+    margin: 20px;
+    margin-bottom: 50px;
+    min-height: 150px;
+    width: 450px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.NotoSans {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.SingleDay {
+    font-family: 'Single Day', cursive;
+}
+.Dosis {
+    font-family: 'Dosis', sans-serif;
+}
+.PoorStory {
+    font-family: 'Poor Story', system-ui;
+}
+
+.italicf {
+    font-style: italic;
+}
+
+.boldf {
+    font-weight: bold;
+}
+
+.border{
+    padding:20px;
+    border: 2px solid #008cba;
+    border-radius: 3px;
+}
+
+.text-color{
+  color: #008cba;
+}
+
+.hover:hover {
+  background-color: #008cba;
+  color:white !important;
+}
+
+.button{
+  margin: 60px 30px;
+}
+
+.no-deco{
+  text-decoration: none;
+}
+
+.no-visited:visited{
+  color: #008cba;
+}
+
+.red {
+  background-color: #f44336;
+  color:white !important;
+  border: 2px solid black;
+  padding:20px;
+  border-radius: 3px;
+}
+
+.round {
+  border-radius: 100%;
+}
+
+.transition {
+  transition-duration: 0.4s;
+}
+
+.shadow:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.opacity{
+  background-color: #008cba;
+  padding:20px;
+  border: 2px solid #008cba;
+  border-radius: 3px;
+  opacity: 0.6;
+  color:white;
+  text-align: center;
+  font-size: 16px;
+}
+
+.opacity:hover {
+  opacity: 1;
+}
